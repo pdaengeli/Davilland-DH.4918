@@ -166,7 +166,7 @@ This confirms:
 
 ---
 
-## ⚠Notes / Caveats
+## Notes / Caveats
 
 * Passwords are stored securely via Fly secrets (not in the image)
 * The container runs with permissive filesystem permissions (`777`) for simplicity
@@ -204,11 +204,13 @@ Instead, it uses:
 
 [ISC](LICENSE) 
 
+## Delta-Hotel-4918 Out
 
+```
 ------------------------------------------------------------
 [ STATUS ] : CLEARED FOR THE EDGE
 [ VECTOR ] : FLY.DEV / PORT 443
 [ PILOT  ] : YOU HAVE THE CONTROLS
 ------------------------------------------------------------
           Blue skies and low latency. Out.
-
+```
