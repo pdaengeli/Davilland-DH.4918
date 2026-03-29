@@ -259,7 +259,7 @@ fly deploy
 ## Expected behavior
 - First request → 401 (login prompt)
 - After login → WebDAV works
-- Welcome file `/welcome.txt` should exist
+- Welcome file \`/welcome.txt\` should exist
 - PROPFIND → HTTP 2xx
 
 ## Useful commands
