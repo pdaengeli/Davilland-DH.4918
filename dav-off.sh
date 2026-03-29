@@ -263,9 +263,13 @@ fly deploy
 - PROPFIND → HTTP 2xx
 
 ## Useful commands
-- fly logs -a <projectname>
-- fly ssh console -a <projectname>
-- fly deploy --local-only | --remote-only | --depot=false
+- \`fly logs -a <projectname>\`
+- \`fly ssh console -a <projectname>\`
+- \`fly deploy --local-only\` | \`--remote-only\` | \`--depot=false\`
+- \`fly certs add example.com\` (add domain to cert and view DNS config)
+- \`fly certs setup -a <projectname> <hostname>\` (view setup options)
+- \`fly certs check -a <projectname> <hostname>\`
+- \`grep fly DEPLOY.md\` (list of fly commands contained in DEPLOY.md)
 EOF
 
 echo ""
